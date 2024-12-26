@@ -6,7 +6,7 @@ import SwapInput from "../components/SwapInput";
 
 const Home: NextPage = () => {
   // Contracts for the DEX and the token
-  const TOKEN_CONTRACT = "0x68b90E83729325CCb3eFaFC22b27beBc73987F36";
+  const TOKEN_CONTRACT = "0x4d1fC7e2dbb069D26C81d321818117d2C8c2b0d3";
   const DEX_CONTRACT = "0x45b5B0925dEb4d686ca5AaC34796fE9eF6c52b8b";
 
   // SDK instance
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
               max={nativeBalance?.displayValue}
               value={nativeValue as string}
               setValue={setNativeValue}
-              tokenSymbol="AVAX"
+              tokenSymbol="BNB"
               tokenBalance= {nativeBalance?.displayValue}
             />
             <button
